@@ -1,0 +1,117 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+
+:root{
+    --body-color: #0D1117;
+    --line-color: #7C72FF;
+    --btn-color: #6F3FC8;
+    --border-color: #AA80E8;
+    --white-color: #FFFFFF;
+    --search-color: #283041;
+    --green-color: #3FB950;
+    --gray-color: #646C74;
+}
+
+/* RESUABLE CLASSES  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+ul li{
+    list-style: none;
+}
+
+/* HEADER CSS  */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo{
+    width: 35px;
+}
+
+.navbar .nav-links{
+    display: flex;
+}
+
+.navbar .nav-links li{
+    padding: 10px;
+}
+
+.navbar .nav-links li a{
+    font-size: 12px;
+}
+
+.search-btn-container{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.search-btn-container input{
+    position: relative;
+    background: #283041;
+    color: #FFF;
+    border: 1px solid #747373;
+    margin-right: 5rem;
+    padding: 6px 16px;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+}
+
+.search-btn-container i .fa{
+    color: #3FB950;
+    font-size: 55px;
+    position: relative;
+}
+
+.search-btn-container .btn{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.search-btn-container .btn a{
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+.search-btn-container .btn .btn-border{
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
